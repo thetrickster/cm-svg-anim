@@ -73,6 +73,8 @@ module.exports = function(grunt) {
                     // "assets/js/lib/navigation-button.js",
                     "bower_components/jquery/dist/jquery.js",
                     "bower_components/bootstrap/dist/bootstrap.min.js",
+                    "bower_components/raphael/raphael-min.js",
+                    "bower_components/lazy-line-painter/jquery.lazylinepainter-1.4.1.min.js",
                     "assets/js/app.js"
                 ],
                 dest: "assets/js/app-compiled.js"
@@ -86,7 +88,7 @@ module.exports = function(grunt) {
                     banner: "<%= meta.banner %>\n"
                 },
                 files: {
-                    "assets/js/libs/modernizr.js": ["assets/js/modernizr.min.js"],
+                    "assets/js/modernizr.min.js": ["assets/js/libs/modernizr.js"],
                     "assets/js/app.min.js": ["assets/js/app-compiled.js"]
                 }
             }
