@@ -18,7 +18,10 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bootstrap": "~3.3.0"
+  "dependencies": {},
+  "devDependencies": {
+    "lazy-line-painter": "~1.4.1",
+    "bootstrap": "~3.3.0",
+    "modernizr": "~2.8.3"
   }
 }

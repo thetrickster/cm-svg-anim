@@ -1,1 +1,7 @@
 bower_components/
+node_modules/
+assets/css/app.css
+assets/css/app.min.css
+assets/js/app-compiled.js
+assets/js/app.min.js
+assets/js/libs/modernizr.js
